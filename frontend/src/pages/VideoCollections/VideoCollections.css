@@ -1,0 +1,21 @@
+.lectureVideoCollections {
+  margin-top:3rem;
+}
+.lectureVideoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  flex-wrap: wrap;
+}
+.eachLectureVideo {
+  height: 15rem;
+  width: 20rem;
+  border-radius: 20px;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

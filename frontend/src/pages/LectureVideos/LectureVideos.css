@@ -1,0 +1,21 @@
+.lectureVideosDetails{
+display: flex;
+justify-content: center;
+align-items: center;
+height:calc(100vh - 80px);
+}
+
+.lectureVideosContainer{
+  height:90%;
+  width: 75%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lectureVideosContainer iframe{
+  height: 85%;
+  width: 90%;
+  border-radius: 0;
+}
